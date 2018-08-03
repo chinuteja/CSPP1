@@ -12,7 +12,7 @@ def main():
     while answer**3 < s_1:
         answer = answer + 1
     if answer**3 == s_1:
-        print(str(s_1) + " is perfect cube")
+        print(str(s_1) + " is a perfect cube")
     else:
         print(str(s_1) + " is not a perfect cube")
 
