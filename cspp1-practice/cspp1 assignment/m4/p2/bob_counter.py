@@ -9,11 +9,10 @@ def main():
     '''
 
     s_1 = input()
-    x_1 = len(s_1)
-    y_1 = "bob"
+    x_1 = len(s_1) 
     count = 0
     for i in range(0, x_1, 1):
-        if s_1[i:i+3] == y_1:
+        if s_1[i:i+3] == "bob":
             count = count + 1
     print(count)
 
