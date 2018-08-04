@@ -7,7 +7,6 @@ def main():
     '''
     Read number from the input, store it in variable num.
     '''
-    print("enter a number")
     num = int(input())
     if num > 0:
         for i in range(1, num+1, 1):
