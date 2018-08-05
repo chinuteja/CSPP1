@@ -14,8 +14,8 @@ def main():
     while abs(guess**2 - square_root) > epsilon and guess <= square_root:
         guess = guess + step
     if abs(guess**2 - square_root) > epsilon:
-        print("couldn't find the square root of given number", square_root)
+        print(square_root)
     else:
-        print("the square root of given number is ", guess)
+        print(guess)
 if __name__ == "__main__":
     main()
