@@ -6,12 +6,16 @@ def main():
     '''
     Read string from the input, store it in variable str_input.
     '''
-    str_input = input()
-    n_1 = len(str_input)
-    i = 0
-    for i in range(0, n_1):
-        if str_input[i] == '@' or str_input[i] == '!' or str_input[i] == '#' or str_input[i] == '$' or str_input[i] == '%' or str_input[i] == '*' or str_input[i] == '^':
-            str_input[i] = print(" "+str_input[i])
-    print(str_input[i])
+    n_n = input()
+    s_s = " "
+    for i_i in n_n:
+        if i_i in "!@#$%^&*/-" :
+            i_i = ' '
+            s_s = s_s + i_i
+        else:
+            i_i = i_i
+            s_s = s_s + i_i
+    print(s_s)
+    
 if __name__ == "__main__":
     main()
