@@ -1,6 +1,6 @@
 '''
-Author: Rishika Haritha - 20186041
-Encoding: Utf-8
+Author: teja
+date : 6/8/2018
 '''
 
 def paying_debt_off_inayear(balance_unpaid, annual_interest_rate, monthly_payment_rate):
