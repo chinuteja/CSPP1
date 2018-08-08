@@ -12,13 +12,13 @@ def get_guessed_word(secret_word, letters_guessed):
     '''
     # FILL IN YOUR CODE HERE...
     
-    s_1 = " "
+    s_s = " "
     for i in secret_word:
-        if i in letters_guessed:
-            s_1 +=  i
-        else:
-            s_1 += "_"
-    return s_1
+    	if i in letters_guessed:
+    		s_s += i
+    	else:
+    		s_s += '_'
+    return s_s
 def main():
     '''
     Main function for current assignment
