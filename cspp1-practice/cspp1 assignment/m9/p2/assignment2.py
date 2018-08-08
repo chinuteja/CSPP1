@@ -1,16 +1,14 @@
 '''
 Exercise: Assignment-2
-author : Teja
-Date : 8/8/2018
+author : teja
+date : 8/8/2018
 '''
-
-
-def is_word_guessed(secret_word, letters_guessed):
+def get_guessed_word(secret_word, letters_guessed):
     '''
     secret_word: string, the word the user is guessing
     letters_guessed: list, what letters have been guessed so far
-    returns: boolean, True if all the letters of secret_word are in letters_guessed;
-      False otherwise
+    returns: string, comprised of letters and underscores that represents
+      what letters in secret_word have been guessed so far.
     '''
     # FILL IN YOUR CODE HERE...
     ans = list(secret_word)
@@ -19,12 +17,11 @@ def is_word_guessed(secret_word, letters_guessed):
         if i in letters_guessed:
             s_1 = s_1 + i
         else:
-        	s_1 = s_1 + "_"
+            s_1 = s_1 + "_"
     return s_1
-
 def main():
     '''
-    Main function for the program
+    Main function for current assignment
     '''
     user_input = input()
     if user_input:
@@ -36,7 +33,7 @@ def main():
     list1 = []
     for j in range(1, len(data)):
         list1.append(data[j][0])
-    print(is_word_guessed(secret_word, list1))
+    print(get_guessed_word(secret_word, list1))
 
 if __name__ == "__main__":
     main()
