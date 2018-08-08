@@ -12,7 +12,7 @@ def get_guessed_word(secret_word, letters_guessed):
     '''
     # FILL IN YOUR CODE HERE...
     
-    s_s = " "
+    s_s = ""
     for i in secret_word:
     	if i in letters_guessed:
     		s_s += str(i)
