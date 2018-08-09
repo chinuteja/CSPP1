@@ -13,14 +13,17 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     # FILL IN YOUR CODE HERE...
-    ans = list(secret_word)
-    s_1 = ""
-    for i in ans:
+   for i in range (len(secret_word)):
+   
+
+    ans_guess = list(secret_word)
+    count = 0
+    for i in ans_guess:
         if i in letters_guessed:
-            s_1 = s_1 + str(i)
-        else:
-        	s_1 = s_1 + "_"
-    return s_1
+            count += 1
+    if count == len(secret_word):
+        return True
+    return False
 
 def main():
     '''
