@@ -18,7 +18,6 @@ def is_word_guessed(secret_word, letters_guessed):
     for i in ans:
         if i in letters_guessed:
             s_1 = s_1 + str(i)
-            print(s_1)
         else:
         	s_1 = s_1 + "_"
     return s_1
