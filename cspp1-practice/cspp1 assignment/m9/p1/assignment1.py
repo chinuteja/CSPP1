@@ -14,7 +14,7 @@ def is_word_guessed(secret_word, letters_guessed):
     '''
     # FILL IN YOUR CODE HERE...
     ans = list(secret_word)
-    s_1 = " "
+    s_1 = ""
     for i in ans:
         if i in letters_guessed:
             s_1 = s_1 + i

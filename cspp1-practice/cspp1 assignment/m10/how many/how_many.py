@@ -9,9 +9,10 @@ def how_many(aDict):
 
     returns: int, how many values are in the dictionary.
     '''
-    number_values = aDict.values()
-    length_values =len(number_values)
-    return length_values
+    count_value = 0
+    for i in aDict:
+    	count_value = count_value + len(aDict[i])
+    return count_value
     
 def main():
 	n=input()
