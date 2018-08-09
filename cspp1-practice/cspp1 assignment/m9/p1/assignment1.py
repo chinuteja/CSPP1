@@ -13,9 +13,6 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     # FILL IN YOUR CODE HERE...
-   for i in range (len(secret_word)):
-   
-
     ans_guess = list(secret_word)
     count = 0
     for i in ans_guess:
