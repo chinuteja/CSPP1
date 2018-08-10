@@ -17,7 +17,7 @@ def is_valid_word(word_test, hand_word, word_list):
             count += count
         if count == len(word_test) and word_test[i_1] == word_list[i_1]:
             return True
-    return False
+        return False
 def main():
     '''
     main
