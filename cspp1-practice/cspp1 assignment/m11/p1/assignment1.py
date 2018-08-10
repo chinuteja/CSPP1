@@ -31,7 +31,7 @@ def get_word_score(word, n):
             count_value = count_value + SCRABBLE_LETTER_VALUES[i]
     count_value = count_value*len(word_list)
     if n == len(word_list):
-        return (count_value*n)
+        return (count_value + 50)
     return count_value
 
 def main():
