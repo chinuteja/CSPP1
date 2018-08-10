@@ -22,6 +22,7 @@ def main():
     for i_1 in range(int(n_1)):
         data = input()
         l_1 = data.split()
+        i_1 += 1
         adict[l_1[0]] = int(l_1[1])
     data1 = input()
     print(update_hand(adict, data1))
