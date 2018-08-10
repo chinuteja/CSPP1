@@ -1,5 +1,7 @@
-#Exercise: Assignment-2
-#Implement the updateHand function. Make sure this function has no side effects: i.e., it must not mutate the hand passed in. Before pasting your function definition here, be sure you've passed the appropriate tests in test_ps4a.py.
+'''
+author : teja
+date : 10/8/2018
+'''
 
 
 def updateHand(hand, word):
@@ -26,16 +28,16 @@ def updateHand(hand, word):
     return hand
 
 def main():
-	n=input()
-	adict={}
-	for i in range(int(n)):
-		data=input()
-		l=data.split()
-		adict[l[0]]=int(l[1])
-	data1=input()
-	print(updateHand(adict,data1))
-		
+    n=input()
+    adict={}
+    for i in range(int(n)):
+        data=input()
+        l=data.split()
+        adict[l[0]]=int(l[1])
+    data1=input()
+    print(updateHand(adict,data1))
+        
 
 
 if __name__== "__main__":
-	main()
+    main()
