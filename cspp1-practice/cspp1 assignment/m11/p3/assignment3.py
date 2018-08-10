@@ -28,6 +28,7 @@ def main():
     for i_1 in range(n_1):
         data = input()
         l_1 = data.split()
+        i_1 += i_1
         adict[l_1[0]] = int(l_1[1])
     l_2 = input().split()
     print(is_valid_word(word_test, adict, l_2))
