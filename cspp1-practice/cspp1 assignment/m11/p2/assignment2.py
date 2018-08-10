@@ -4,40 +4,26 @@ date : 10/8/2018
 '''
 
 
-def updateHand(hand, word):
+def update_hand(hand_word, test_word):
     """
-    Assumes that 'hand' has all the letters in word.
-    In other words, this assumes that however many times
-    a letter appears in 'word', 'hand' has at least as
-    many of that letter in it. 
-
-    Updates the hand: uses up the letters in the given word
-    and returns the new hand, without those letters in it.
-
-    Has no side effects: does not modify hand.
-
-    word: string
-    hand: dictionary (string -> int)    
-    returns: dictionary (string -> int)
-    """
-    # TO DO ... <-- Remove this comment when you code this function
-    word = list(word)
-    for i in word:
-        if i in hand:
-            hand[i] = hand[i] - 1
-    return hand
-
+   this function is used to decrement the value of key by 1
+   """
+    test_word = list(test_word)
+    for i_1 in test_word:
+        if i_1 in hand_word:
+            hand_word[i_1] = hand_word[i_1] - 1
+    return hand_word
 def main():
-    n=input()
-    adict={}
-    for i in range(int(n)):
-        data=input()
-        l=data.split()
-        adict[l[0]]=int(l[1])
-    data1=input()
-    print(updateHand(adict,data1))
-        
-
-
-if __name__== "__main__":
+    '''
+    main function
+    '''
+    n_1 = input()
+    adict = {}
+    for i_1 in range(int(n_1)):
+        data = input()
+        l_1 = data.split()
+        adict[l_1[0]] = int(l_1[1])
+    data1 = input()
+    print(update_hand(adict, data1))
+if __name__ == "__main__":
     main()
