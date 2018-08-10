@@ -26,7 +26,8 @@ def isValidWord(word, hand, wordList):
     		count += count 
     if count == len(word):
        return True
-    for i in range len(wordList):
+    l_1 = len(wordList)
+    for i in range l_1:
         if word in wordList[i]:
         	return True
         return False
