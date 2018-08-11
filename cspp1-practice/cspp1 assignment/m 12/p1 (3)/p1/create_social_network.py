@@ -9,7 +9,7 @@ def create_social_network(data):
     '''
     n_1 = data()
     l_1 = []
-    for i_1 in range(len(int(n_1))):
+    for i_1 in range(len(str(n_1))):
         l_1.append(data())
         i_1 += i_1
     adict = {}
@@ -34,7 +34,7 @@ def main():
         string += input()
         string += '\n'
 
-    print(create_social_network(dict))
+    print(create_social_network(str))
 
 if __name__ == "__main__":
     main()
