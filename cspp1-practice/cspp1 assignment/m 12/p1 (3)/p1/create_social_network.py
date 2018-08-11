@@ -59,7 +59,7 @@ def main():
         string += input()
         string += '\n'
 
-    print(create_social_network(string))
+    print(create_social_network(dict))
 
-if __name__ == "__main__":
+if __name__  ==  "__main__":
     main()
