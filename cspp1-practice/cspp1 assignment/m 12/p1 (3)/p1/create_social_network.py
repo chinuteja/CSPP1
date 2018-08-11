@@ -1,53 +1,28 @@
 '''
-    Assignment-1 Create Social Network
+   author :teja
+   date : 11/8/2018
 '''
 
 def create_social_network(data):
     '''
-        The data argument passed to the function is a string
-        It represents simple social network data
-        In this social network data there are people following other people
-
-        Here is an example social network data string:
-        John follows Bryant,Debra,Walter
-        Bryant follows Olive,Ollie,Freda,Mercedes
-        Mercedes follows Walter,Robin,Bryant
-        Olive follows John,Ollie
-
-        The string has multiple lines and each line represents one person
-        The first word of each line is the name of the person
-        The second word is follows that separates the person from the followers
-        After the second word is a list of people separated by ,
-
-        create_social_network function should split the string on lines
-        then extract the person and the followers by splitting each line
-        finally add the person and the followers to a dictionary and
-        return the dictionary
-
-        Caution: watch out for trailing spaces while splitting the string.
-        It may cause your test cases to fail although your output may be right
-
-        Error handling case:
-        Return a empty dictionary if the string format of the data is invalid
-        Empty dictionary is not None, it is a dictionary with no keys
+     program used to convert the given data into dictonary.
     '''
-
-    # remove the pass below and start writing your code
-    n = input()
-    l =[]
-    for i in range (len(int(n))):
-        l.append(input())
-    dict = {}
-    for i in l:
-        l2 = i.split(':')
-        if l2[0] in dict:
-            l2[1] = l2[1].split(',')
-            for j in l2[1]:
-                dict[l2[0]].append(int(j))
-        else :
-            l2[1] = l2[1].spilt(',')
-            dict[l2[0]] = l2[1]
-    print(dict)
+    n_1 = data()
+    l_1 = []
+    for i_1 in range(len(int(n_1))):
+        l_1.append(data())
+        i_1 += i_1
+    adict = {}
+    for i_1 in l_1:
+        l_2 = i_1.split(':')
+        if l_2[0] in adict:
+            l_2[1] = l_2[1].split(',')
+            for j_1 in l_2[1]:
+                adict[l_2[0]].append(int(j_1))
+        else:
+            l_2[1] = l_2[1].spilt(',')
+            adict[l_2[0]] = l_2[1]
+    print(adict)
 def main():
     '''
         handling testcase input and printing output
@@ -61,5 +36,5 @@ def main():
 
     print(create_social_network(dict))
 
-if __name__  ==  "__main__":
+if __name__ == "__main__":
     main()
