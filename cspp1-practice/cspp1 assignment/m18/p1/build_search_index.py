@@ -46,7 +46,7 @@ def build_search_index(docs):
 
         # add or update the words of the doc to the search index
 
-    d = {}
+    d_1 = {}
     for i in word_list:
         if i in word_list:
             count = count + 1
