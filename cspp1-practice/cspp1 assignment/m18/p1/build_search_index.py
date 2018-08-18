@@ -49,7 +49,7 @@ def build_search_index(docs):
     for i in word_list:
         if i in word_list:
             count = count + 1
-    d{i} = count
+    print(count)
 def print_search_index(index):
     '''
         print the search index
