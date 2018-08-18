@@ -24,9 +24,9 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    text = re.sub('[^a-z]',"",text.lower())
+    text = re.sub('[^a-z]', "",text.lower())
     text_1 = text.split()
-    text_1 = text_1.replace("'","")
+    text_1 = text_1.replace("'", "")
     word_list = copy.deepcopy(text_1)
     print(word_list)
     return word_list
