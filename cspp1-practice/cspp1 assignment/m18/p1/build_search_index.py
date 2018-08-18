@@ -2,8 +2,9 @@
 author : teja
 date : 18/8/2018
 '''
-import resub
 import copy
+import resub
+
 
 # helper function to load the stop words from a file
 def load_stopwords(filename):
