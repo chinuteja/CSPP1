@@ -90,7 +90,7 @@ class Hand(object):
                 #print("hi")
         if str_1 == word:
             #print("hello")
-        return True    
+            return True    
 myHand = Hand(7)
 print(myHand)
 print(myHand.calculateLen())
@@ -99,5 +99,5 @@ myHand.setDummyHand('aazzmsp')
 print(myHand)
 print(myHand.calculateLen())
 
-myHand.update('za')
-print(myHand)
+print(myHand.update('za'))
+
