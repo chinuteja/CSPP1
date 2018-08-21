@@ -4,6 +4,9 @@ date : 21/08/2018
 '''
 import string
 class Cipher:
+    '''
+    method used for cipher
+    '''
     def __init__(self, value):
         self.value = value
 
