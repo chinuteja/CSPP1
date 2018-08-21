@@ -14,6 +14,9 @@ class Cipher:
         return count
 
     def shift(self, shift_number):
+        '''
+        this function is used to return shifted string
+        '''
         small_alphabet = ""
         upper_alphabet = ""
         small_alphabet = "-" + string.ascii_lowercase + string.ascii_lowercase
