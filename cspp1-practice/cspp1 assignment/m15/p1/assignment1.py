@@ -1,10 +1,9 @@
 ''' Implement CipherTextMessage Class '''
+import string
 '''
 author : teja
 date : 22/8/2018
 '''
-import string
-
 # Helper code begins
 
 ### DO NOT MODIFY THIS FUNCTION ###
