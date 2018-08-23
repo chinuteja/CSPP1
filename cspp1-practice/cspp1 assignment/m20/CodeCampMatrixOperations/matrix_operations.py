@@ -1,8 +1,6 @@
-'''
-author : teja
-date : 23/8/2018
-'''
-def mult_matrix(m_1, m_2, c_1, r_2, r_1):
+''' Author : Pranay Kumar Y
+    Date : 23rd August,2018'''
+def mult_matrix(m_1, m_2, r_1, r_2, c_1): #c_2 is removed for pylint
     '''
         check if the matrix1 columns = matrix2 rows
         mult the matrices and return the result matrix
@@ -10,6 +8,7 @@ def mult_matrix(m_1, m_2, c_1, r_2, r_1):
         and return None
         error message should be "Error: Matrix shapes invalid for mult"
     '''
+
     if c_1 == r_2:
         multiplication_matrix = []
         for i in range(r_1):
@@ -21,10 +20,9 @@ def mult_matrix(m_1, m_2, c_1, r_2, r_1):
                 temp.append(sum_val)
             multiplication_matrix.append(temp)
         return multiplication_matrix
-    else:
-        print("Error: Matrix shapes invalid for mult")
-        return None
-   
+    print("Error: Matrix shapes invalid for mult")
+    return None #for pylint
+
 def add_matrix(m_1, m_2, r_1, r_2, c_1, c_2):
     '''
         check if the matrix shapes are similar
@@ -33,17 +31,18 @@ def add_matrix(m_1, m_2, r_1, r_2, c_1, c_2):
         and return None
         error message should be "Error: Matrix shapes invalid for addition"
     '''
+
     if r_1 == r_2 and c_1 == c_2:
-        add_matrix = []
-        for i in range(len(m_1)):
+        addition_matrix = []
+        for i in range(0, r_1):
             temp = []
-            for j in range(len(m_1[0])):
-                temp.append(m_1[i][j]+m_2[i][j])
-            add_matrix.append(temp)
-        return add_matrix
-    else:
-        print("Error: Matrix shapes invalid for addition")
-    return None
+            for j in range(0, c_1):
+                temp.append(m_1[i][j] + m_2[i][j])
+            addition_matrix.append(temp)
+        return addition_matrix
+    print("Error: Matrix shapes invalid for addition")
+    return None #for pylint
+
 def read_matrix():
     '''
         read the matrix dimensions from input
@@ -52,20 +51,49 @@ def read_matrix():
         print an error message and return None
         error message should be "Error: Invalid input for the matrix"
     '''
+
     dimensions = input().split(",")
-    r_1 = int(dimensions[0])
-    c_1 = int(dimensions[1])
-    m_1 = []
-    for i in range(0,r_1):
-        m_1.append(list(map(int, input().split())))
-    return r_1, c_1, m_1
+    row_value = int(dimensions[0])
+    column_value = int(dimensions[1])
+    mat = []
+    # for i in range(n):
+    #     mat.append([])
+    # for i in range (n):
+    #     temp = input().split()
+    #     for j in range (n):
+    #         mat[i].append(int(temp[j]))
+
+    for i in range(0, row_value):
+        mat.append(list(map(int, input().split())))
+
+    flag = True
+    for i in mat:
+        count = 0
+        for _ in i:
+            count += 1
+        if count != column_value:
+            flag = False
+
+    return mat, row_value, column_value, flag
+
 
 def main():
-    # read matrix 1
-    (m_1, r_1, c_1) = read_matrix()
-    (m_2, r_2, c_2) = read_matrix()
-    print(add_matrix(m_1, m_2, r_1, c_1, r_2, c_2))
-    print(mult_matrix(m_1, m_2, r_1, c_1, r_2))    
+    '''main function'''
+    (matrix_1, row_1, column_1, flag_1) = read_matrix()
+
+    (matrix_2, row_2, column_2, flag_2) = read_matrix()
+
+    #print(flag_1, flag_2)
+
+    if flag_1 and flag_2:
+        print(add_matrix(matrix_1, matrix_2, row_1, row_2, column_1, column_2))
+        print(mult_matrix(matrix_1, matrix_2, row_1, row_2, column_1)) #column_2 is also sent
+
+        # print(addition_matrix)
+        # print(multiplication_matrix)
+
+    else:
+        print("Error: Invalid input for the matrix")
 
 if __name__ == '__main__':
     main()
