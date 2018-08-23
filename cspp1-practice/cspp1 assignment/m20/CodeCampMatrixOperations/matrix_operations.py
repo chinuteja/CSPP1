@@ -65,7 +65,7 @@ def main():
     (m_1, r_1, c_1) = read_matrix()
     (m_2, r_2, c_2) = read_matrix()
     print(add_matrix(m_1, m_2, r_1, c_1, r_2, c_2))
-    print(mult_matrix(m_1, m_2, r_1, c_1, c_2, r_2))    
+    print(mult_matrix(m_1, m_2, r_1, c_1, r_2))    
 
 if __name__ == '__main__':
     main()
