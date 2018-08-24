@@ -2,7 +2,10 @@
 author : teja
 date : 24/8/2018
 '''
-def Tic_TacToe(matrix):
+def Tic_Tactoe(matrix):
+    '''
+    function for game
+    '''
     winner = []
     for row in matrix:
         if row[0] == row[1] == row[2]:
@@ -34,6 +37,6 @@ def main():
     for _ in range(0, 3):
         col = input().split(' ')
         matrix.append(col)
-    Tic_TacToe(matrix)
+    Tic_Tactoe(matrix)
 if __name__ == '__main__':
     main()
