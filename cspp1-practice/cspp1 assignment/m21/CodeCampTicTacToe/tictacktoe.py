@@ -2,7 +2,7 @@
 author : teja
 date : 24/8/2018
 '''
-def Tic_Tactoe(matrix):
+def tic_tactoe(matrix):
     '''
     function for game
     '''
@@ -37,6 +37,6 @@ def main():
     for _ in range(0, 3):
         col = input().split(' ')
         matrix.append(col)
-    Tic_Tactoe(matrix)
+    tic_tactoe(matrix)
 if __name__ == '__main__':
     main()
