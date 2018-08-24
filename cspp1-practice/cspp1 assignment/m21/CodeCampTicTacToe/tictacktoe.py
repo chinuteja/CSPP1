@@ -1,10 +1,13 @@
-
-def Tic_Tac_Toe(matrix):
+'''
+author : teja
+date : 24/8/2018
+'''
+def Tic_TacToe(matrix):
     winner = []
     for row in matrix:
         if row[0] == row[1] == row[2]:
             winner.append(row[0])
-    for i in range(0,3):
+    for i in range(0, 3):
         if matrix[0][i] == matrix[1][i] == matrix[2][i]:
             winner.append(matrix[0][i])
     if matrix[0][0] == matrix[1][1] == matrix[2][2]:
@@ -24,10 +27,13 @@ def Tic_Tac_Toe(matrix):
         print("invalid game")
         return None
 def main():
+    '''
+    main function
+    '''
     matrix = []
     for _ in range(0, 3):
         col = input().split(' ')
         matrix.append(col)
-    Tic_Tac_Toe(matrix)
+    Tic_TacToe(matrix)
 if __name__ == '__main__':
-   main()
+    main()
