@@ -46,6 +46,6 @@ def main():
     board = []
     for i in range(3):
         board.append(input().split())
-        if isvalidinput(board):
+    if isvalidinput(board):
         #print(board)
-            print(checkwinner(board))
+        print(checkwinner(board))
