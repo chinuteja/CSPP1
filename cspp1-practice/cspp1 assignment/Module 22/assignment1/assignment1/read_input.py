@@ -4,9 +4,9 @@ date : 25/8/2018
 '''
 
 def main():
-	'''
-	main function
-	'''
+    '''
+    main function
+    '''
     number_lines = int(input())
     #print(n)
     string_1 = ""
