@@ -7,10 +7,10 @@ def tokenize(string):
     count = dict()
     words = string.split()
     for i in words:
-    	if i in count:
-    		count[i] +=1
-    	else:
-    		count[i] = 1
+        if i in count:
+            count[i] +=1
+        else:
+            count[i] = 1
         return count
 
             
