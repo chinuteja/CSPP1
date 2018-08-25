@@ -7,7 +7,7 @@ def main():
      #print(n)
      s = ""
      for i in range  (n) :
-        s += input() 
+        s += input()
         print()
         print(s)
 if __name__ == '__main__':
