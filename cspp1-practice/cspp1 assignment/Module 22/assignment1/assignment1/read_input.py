@@ -8,8 +8,8 @@ def main():
      s = ""
      for i in range  (n) :
         s += input()
-        print(s)
-        print()
+     print(s)
+     print()
 
 if __name__ == '__main__':
     main()
