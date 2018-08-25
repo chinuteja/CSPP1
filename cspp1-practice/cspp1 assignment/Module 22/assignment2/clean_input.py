@@ -11,7 +11,7 @@ def clean_string(string):
            string_1 = string_1 + i_1
         else:
             i_1 = i_1
-            string_1 = string_1 + i
+            string_1 = string_1 + i_1
     return string_1
 def main():
     string = input()
