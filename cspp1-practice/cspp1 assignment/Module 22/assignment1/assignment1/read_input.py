@@ -6,9 +6,10 @@ def main():
      n = int(input())
      #print(n)
      s = ""
-     for i in s :
+     for i in range (n):
         s += input()
-        print(s)
+        string = '/n'.join(s)
+        print(string)
         
 
 if __name__ == '__main__':
