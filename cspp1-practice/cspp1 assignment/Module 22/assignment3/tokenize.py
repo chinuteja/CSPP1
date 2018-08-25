@@ -6,18 +6,18 @@ each word
 def tokenize(string):
     count = dict()
     words = string.split()
-    for i in words:
-        if i in count:
-            count[i] +=1
+    for word in words:
+        if word in count:
+            count[word] +=1
         else:
-            count[i] = 1
-        return count
+            count[word] = 1
+    return count
 
             
 def main():
     #n = int(input())
-    string = input()
-    print(tokenize(string))
+    
+    print(tokenize(string=input()))
 
 if __name__ == '__main__':
     main()
