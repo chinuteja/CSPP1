@@ -6,10 +6,10 @@ def main():
      n = int(input())
      #print(n)
      s = ""
-     for i in range  (n) :
+     for i in s :
         s += input()
-     print(s)
-     print()
+        print(s)
+        
 
 if __name__ == '__main__':
     main()
