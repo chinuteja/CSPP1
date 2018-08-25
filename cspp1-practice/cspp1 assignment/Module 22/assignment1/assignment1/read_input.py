@@ -10,7 +10,7 @@ def main():
     number_lines = int(input())
     #print(n)
     string_1 = ""
-    for i in range(number_lines):
+    for _ in range(number_lines):
         string_1 = input()
         print(string_1, end="")
         print()
