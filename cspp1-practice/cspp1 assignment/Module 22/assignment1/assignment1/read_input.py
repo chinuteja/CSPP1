@@ -12,7 +12,7 @@ def main():
     string_1 = ""
     for i in range(number_lines):
         string_1 = input()
-        print(string_1,end="")
+        print(string_1, end="")
         print()
 if __name__ == '__main__':
     main()
