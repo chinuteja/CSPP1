@@ -7,7 +7,7 @@ def main():
      #print(n)
      s = ""
      for i in range (n):
-        s += input()
+        s = input()
         
         print(s,end=" ")
         print()
