@@ -4,9 +4,9 @@ date : 25/8/2018
 '''
 
 def clean_string(string):
-	'''
-	function to perform string operation
-	'''
+    '''
+    function to perform string operations
+    '''
     string_1 = ""
     for i_1 in string:
         if i_1 in ".!@#$%^&*() ":
@@ -17,9 +17,9 @@ def clean_string(string):
             string_1 = string_1 + i_1
     return string_1
 def main():
-	'''
-	function to take input
-	'''
+    '''
+    function to take input
+    '''
     string = input()
     print(clean_string(string))
 
