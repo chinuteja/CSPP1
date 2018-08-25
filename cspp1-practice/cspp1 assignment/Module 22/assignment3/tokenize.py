@@ -17,7 +17,7 @@ def tokenize(string):
 def main():
     #n = int(input())
     
-    print(tokenize(string=input()))
+    print(tokenize(string=str(input()))
 
 if __name__ == '__main__':
     main()
