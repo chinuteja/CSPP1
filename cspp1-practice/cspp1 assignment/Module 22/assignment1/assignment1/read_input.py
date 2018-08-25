@@ -8,7 +8,7 @@ def main():
      s = ""
      for i in range (n):
         s += input()
-        string = '\n'.join(s)
+        string = '\n'.join([s])
         print(string)
         
 
