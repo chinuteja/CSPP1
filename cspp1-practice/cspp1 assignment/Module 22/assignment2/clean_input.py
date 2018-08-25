@@ -6,7 +6,7 @@ alphabets in both upper and lower case and numbers.
 def clean_string(string):
     s = ""
     for i in string:
-        if i in "!@#$%^&*()":
+        if i in "!@#$%^&*() ":
            i = ""
            s = s + i
         else:
