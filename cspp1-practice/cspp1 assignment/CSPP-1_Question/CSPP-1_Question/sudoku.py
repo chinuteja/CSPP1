@@ -5,6 +5,7 @@ def check_suduko(suduko):
         for i in row:
             if i == ".":
                 count = count + 1
+                
             
     if count == 0:
         return "Given sudoku is solved"
