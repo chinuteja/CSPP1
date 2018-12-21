@@ -1,0 +1,16 @@
+************* Module sudoku
+sudoku.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:16:11: C0326: Exactly one space required before comparison
+    while i< len(input_1):
+           ^ (bad-whitespace)
+sudoku.py:17:23: C0326: Exactly one space required after comma
+        suduko.insert(j,list((input_1[i:i+9])))
+                       ^ (bad-whitespace)
+sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
+sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:1:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.50/10 (previous run: 6.50/10, +0.00)
+
