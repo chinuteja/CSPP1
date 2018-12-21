@@ -34,9 +34,14 @@ def main():
            for col in range(0, 9):
                if(suduko[row][col] == '.'):
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                # print("get rows....",getrows(suduko, row))
+                # print("get cols........",getcols(suduko, col))
+                # print("get subgrid..........",getgrid(suduko,row,col))
+                # print("result........",result)
                 resultstr = ""
                 for ele in result:
                     resultstr = resultstr + ele
+                    # print("ele.....",ele)
                 print(resultstr)           
 if __name__ == '__main__':
     main()

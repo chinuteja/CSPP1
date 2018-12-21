@@ -37,12 +37,12 @@ sudoku.py:36:57: C0326: Exactly one space required after comma
 sudoku.py:36:61: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                                              ^ (bad-whitespace)
-sudoku.py:37:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:38:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:39:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-sudoku.py:40:32: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:40:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:42:0: C0304: Final newline missing (missing-final-newline)
+sudoku.py:41:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:42:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:43:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+sudoku.py:45:32: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:45:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:47:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:7:0: C0111: Missing function docstring (missing-docstring)
@@ -52,5 +52,5 @@ sudoku.py:27:12: W0612: Unused variable 'i' (unused-variable)
 sudoku.py:29:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.44/10 (previous run: 3.26/10, -0.82)
+Your code has been rated at 2.44/10 (previous run: 2.44/10, +0.00)
 
