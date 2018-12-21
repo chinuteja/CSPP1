@@ -1,17 +1,57 @@
 ************* Module sudoku
-sudoku.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:9:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:17:11: C0326: Exactly one space required before comparison
-    while i< len(input_1):
-           ^ (bad-whitespace)
-sudoku.py:18:23: C0326: Exactly one space required after comma
-        suduko.insert(j,list((input_1[i:i+9])))
-                       ^ (bad-whitespace)
+sudoku.py:10:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+sudoku.py:13:22: C0326: No space allowed before comma
+def getgrid(suduko, i , j):
+                      ^ (bad-whitespace)
+sudoku.py:17:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+sudoku.py:19:18: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:29:28: C0326: Exactly one space required after comma
+            for j in range(0,9):
+                            ^ (bad-whitespace)
+sudoku.py:34:0: W0311: Bad indentation. Found 11 spaces, expected 12 (bad-indentation)
+sudoku.py:35:0: W0311: Bad indentation. Found 15 spaces, expected 16 (bad-indentation)
+sudoku.py:35:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+sudoku.py:36:0: C0301: Line too long (143/100) (line-too-long)
+sudoku.py:36:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:36:33: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                 ^ (bad-whitespace)
+sudoku.py:36:37: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                     ^ (bad-whitespace)
+sudoku.py:36:41: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                         ^ (bad-whitespace)
+sudoku.py:36:45: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                             ^ (bad-whitespace)
+sudoku.py:36:49: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                                 ^ (bad-whitespace)
+sudoku.py:36:53: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                                     ^ (bad-whitespace)
+sudoku.py:36:57: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                                         ^ (bad-whitespace)
+sudoku.py:36:61: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                                                             ^ (bad-whitespace)
+sudoku.py:37:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:38:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:39:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+sudoku.py:40:34: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:40:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:42:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:1:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
-sudoku.py:12:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:7:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:13:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:20:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:40:22: E0602: Undefined variable 'resultstr_1' (undefined-variable)
+sudoku.py:27:12: W0612: Unused variable 'i' (unused-variable)
+sudoku.py:29:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.00/10 (previous run: 6.50/10, -0.50)
+Your code has been rated at 1.22/10 (previous run: 6.00/10, -4.78)
 

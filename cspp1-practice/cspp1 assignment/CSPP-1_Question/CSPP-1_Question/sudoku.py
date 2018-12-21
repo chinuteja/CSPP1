@@ -1,25 +1,42 @@
-def check_suduko(suduko):
-    count = 0
-    for row in suduko:
-        # print(row)
-        for i in row:
-            if i == ".":
-                count = count + 1
-                
-            
-    if count == 0:
-        return "Given sudoku is solved"
+def getrows(suduko, i):
+    rowset = set()
+    for k in range(0, 9):
+        if suduko[i][k] != '.':
+            rowset.add(suduko[i][k])
+    return rowset
+def getcols(suduko, j):
+    colset = set()
+    for k in range(0, 9):
+        if(suduko[k][j] != '.'):
+            colset.add(suduko[k][j])
+    return colset
+def getgrid(suduko, i , j):
+    gridset = set()
+    for row in range(i - (i%3), i + (2 - i%3) + 1):
+        for col in range(j - (j%3), j + (2 - j%3) + 1):
+            if(suduko[row][col] != '.'):
+                gridset.add(suduko[row][col])
+    return gridset   
 def main():
-    suduko = []
-    input_1 = str(input())
-    i = 0
-    j = 0
-    while i< len(input_1):
-        suduko.insert(j,list((input_1[i:i+9])))
-        # print("sujo",suduko)
-        i = i + 9
-        j = j + 1
-    print(check_suduko(suduko))
-    # print(suduko)
-if __name__ == "__main__":
+    input_1 = input()
+    if '.' not in input_1:
+        print("Given Sudoko is solved")
+    else:
+        suduko = []
+        k = 0
+        for i in range(0, 9):
+            row = []
+            for j in range(0,9):
+                row.append(input_1[k])
+                k = k + 1
+            suduko.append(row)
+        for row in range(0, 9):
+           for col in range(0, 9):
+               if(suduko[row][col] == '.'):
+                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+                result_1 = ""
+                for ele in result:
+                    result_1 = result_1 + ele
+                print(resultstr_1)           
+if __name__ == '__main__':
     main()
