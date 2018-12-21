@@ -1,10 +1,10 @@
 ************* Module sudoku
 sudoku.py:10:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+sudoku.py:12:17: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:13:22: C0326: No space allowed before comma
 def getgrid(suduko, i , j):
                       ^ (bad-whitespace)
 sudoku.py:17:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-sudoku.py:19:18: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:29:28: C0326: Exactly one space required after comma
             for j in range(0,9):
                             ^ (bad-whitespace)
@@ -40,7 +40,7 @@ sudoku.py:36:61: C0326: Exactly one space required after comma
 sudoku.py:37:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
 sudoku.py:38:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
 sudoku.py:39:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-sudoku.py:40:34: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:40:32: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:40:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
 sudoku.py:42:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -48,10 +48,9 @@ sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:7:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:13:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:20:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:40:22: E0602: Undefined variable 'resultstr_1' (undefined-variable)
 sudoku.py:27:12: W0612: Unused variable 'i' (unused-variable)
 sudoku.py:29:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.22/10 (previous run: 6.00/10, -4.78)
+Your code has been rated at 2.44/10 (previous run: 1.22/10, +1.22)
 
