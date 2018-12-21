@@ -5,52 +5,52 @@ sudoku.py:13:22: C0326: No space allowed before comma
 def getgrid(suduko, i , j):
                       ^ (bad-whitespace)
 sudoku.py:17:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-sudoku.py:35:28: C0326: Exactly one space required after comma
+sudoku.py:29:28: C0326: Exactly one space required after comma
             for j in range(0,9):
                             ^ (bad-whitespace)
-sudoku.py:40:0: W0311: Bad indentation. Found 11 spaces, expected 12 (bad-indentation)
-sudoku.py:41:0: W0311: Bad indentation. Found 15 spaces, expected 16 (bad-indentation)
-sudoku.py:41:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-sudoku.py:42:0: C0301: Line too long (143/100) (line-too-long)
-sudoku.py:42:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:42:33: C0326: Exactly one space required after comma
+sudoku.py:34:0: W0311: Bad indentation. Found 11 spaces, expected 12 (bad-indentation)
+sudoku.py:35:0: W0311: Bad indentation. Found 15 spaces, expected 16 (bad-indentation)
+sudoku.py:35:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+sudoku.py:36:0: C0301: Line too long (143/100) (line-too-long)
+sudoku.py:36:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:36:33: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                  ^ (bad-whitespace)
-sudoku.py:42:37: C0326: Exactly one space required after comma
+sudoku.py:36:37: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                      ^ (bad-whitespace)
-sudoku.py:42:41: C0326: Exactly one space required after comma
+sudoku.py:36:41: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                          ^ (bad-whitespace)
-sudoku.py:42:45: C0326: Exactly one space required after comma
+sudoku.py:36:45: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                              ^ (bad-whitespace)
-sudoku.py:42:49: C0326: Exactly one space required after comma
+sudoku.py:36:49: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                                  ^ (bad-whitespace)
-sudoku.py:42:53: C0326: Exactly one space required after comma
+sudoku.py:36:53: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                                      ^ (bad-whitespace)
-sudoku.py:42:57: C0326: Exactly one space required after comma
+sudoku.py:36:57: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                                          ^ (bad-whitespace)
-sudoku.py:42:61: C0326: Exactly one space required after comma
+sudoku.py:36:61: C0326: Exactly one space required after comma
                 result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
                                                              ^ (bad-whitespace)
-sudoku.py:43:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:44:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:45:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-sudoku.py:46:32: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:46:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:48:0: C0304: Final newline missing (missing-final-newline)
+sudoku.py:37:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:38:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:39:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+sudoku.py:40:32: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:40:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+sudoku.py:42:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:7:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:13:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:20:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:30:4: W0120: Else clause on loop without a break statement (useless-else-on-loop)
-sudoku.py:35:16: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:27:12: W0612: Unused variable 'i' (unused-variable)
+sudoku.py:29:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.26/10 (previous run: 2.44/10, +0.82)
+Your code has been rated at 2.44/10 (previous run: 3.26/10, -0.82)
 
