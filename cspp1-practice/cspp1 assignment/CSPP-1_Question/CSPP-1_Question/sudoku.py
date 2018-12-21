@@ -21,6 +21,12 @@ def main():
     input_1 = input()
     if '.' not in input_1:
         print("Given Sudoko is solved")
+    list1 = list(str(input_1))
+    for i in range(len(list1)-1):
+        if list1[i] == list1[i+9]:
+            print("Invalid Sudoku:Duplicate values")
+        i += 9
+
     else:
         suduko = []
         k = 0
