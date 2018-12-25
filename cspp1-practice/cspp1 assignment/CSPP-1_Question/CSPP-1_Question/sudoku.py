@@ -35,15 +35,15 @@ def main():
                 k = k + 1
             grid.append(row)
         # print(grid)
-    for row in range(9):
-        for col in range(9):
-            if grid[row][col] == ".":
-                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                result_1 = ""
-                # print(result)
-                for x in result:
-                    result_1 += x
-                print(result_1)
-                
+        for row in range(9):
+            for col in range(9):
+                if (grid[row][col]) == ".":
+                    result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                    result_1 = ""
+                    # print(result)
+                    for x in result:
+                        result_1 += x
+                    print(result_1)
+                    
 if __name__ == "__main__":
     main()
