@@ -23,8 +23,11 @@ def getSubgrid(grid,row, col):
     return subgrid
 def main():
     input_1 = input()
+    # print("length of input" , len(input_1))
     if "." not in input_1:
         print("Given sudoku is solved")
+    elif (len(input_1) != 81):
+        print("Invalid input")
     else:
         grid = []
         k = 0
