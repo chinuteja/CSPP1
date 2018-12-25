@@ -29,11 +29,14 @@ def main():
         print("Given sudoku is solved")
     elif (len(input_1) != 81):
         print("Invalid input")
-    # elif (len(input_1) == 81):
-    #     for i in range(len(input_1)):
-    #         if input_1[i] == input_1[i+1]:
-    #             print()
-    #     print("Invalid Sudoku:Duplicate values")
+    elif (len(input_1) == 81):
+        flag = False
+        for i in range(len(input_1)):
+            for j in range(9):
+                if input_1[i] == input_1[j]:
+                    flag = True
+        if flag:
+            print("Invalid Sudoku:Duplicate values")
 
     else:
         grid = []
