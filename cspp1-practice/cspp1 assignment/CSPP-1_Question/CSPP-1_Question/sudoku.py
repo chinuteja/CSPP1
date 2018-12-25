@@ -35,7 +35,7 @@ def main():
             for j in range(9):
                 if input_1[i] == input_1[j]:
                     flag = True
-        if flag:
+        if flag == True:
             print("Invalid Sudoku:Duplicate values")
 
     else:
