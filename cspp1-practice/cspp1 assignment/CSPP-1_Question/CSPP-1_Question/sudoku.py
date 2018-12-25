@@ -7,6 +7,20 @@ def getRowset(grid,row):
             # print("fuck ............",rowset)
             # print(rowset)
     return rowset
+def rowCheck(grid):
+    flag = False
+    for i in range(8):
+        for j in range(8):
+            if grid[i][j] == grid[i][j+1]:
+               raise Exception ("Invalid Sudoku:Duplicate values")
+    # return flag
+def colCheck(grid):
+    flag1 = False
+    for i in range(8):
+        for j in range(8):
+            if grid[j][i] == grid[j+1][j]:
+                raise Exception("Invalid Sudoku:Duplicate values")
+    # return flag1
 def getColset(grid,col):
     colset = set()
     for j in range(9):
@@ -37,6 +51,7 @@ def main():
     #                 flag = True
     #     if flag == True:
     #         print("Invalid Sudoku:Duplicate values")
+    
 
     else:
         grid = []
@@ -48,15 +63,21 @@ def main():
                 k = k + 1
             grid.append(row)
         # print(grid)
-        for row in range(9):
-            for col in range(9):
-                if (grid[row][col]) == ".":
-                    result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                    result_1 = ""
-                    # print(result)
-                    for x in result:
-                        result_1 += x
-                    print(result_1)
+        try:
+            colCheck(grid)
+            rowCheck(grid)
+            for row in range(9):
+                for col in range(9):
+                    if (grid[row][col]) == ".":
+                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                        result_1 = ""
+                        # print(result)
+                        for x in result:
+                            result_1 += x
+                        print(result_1)
+        except Exception as e:
+            print(e)
+        
                     
 if __name__ == "__main__":
     main()
