@@ -6,7 +6,7 @@ Your Output:
 Given sudoku is solved
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 7
 7
@@ -19,15 +19,18 @@ Expected Output:
 7
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+7
+7
+7
+7
+7
+7
+7
+7
+7
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 2
@@ -40,12 +43,15 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+1
+2
+3
+4
+5
+6
+7
+8
+9
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -55,29 +61,21 @@ Expected Output:
 2
 
 Your Output: 
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+652
+652
+652
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+4
+6
+9
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -93,23 +91,18 @@ Expected Output:
 15
 
 Your Output: 
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+3
+7
+4
+6
+8
+2
+9
+1
+5
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 2
 1
@@ -122,12 +115,15 @@ Expected Output:
 3
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+2
+1
+8
+5
+7
+4
+9
+6
+3
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -143,21 +139,18 @@ Expected Output:
 9
 
 Your Output: 
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+627
+627
+627
+153
+153
+153
+498
+498
+498
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 1
 5
@@ -170,20 +163,15 @@ Expected Output:
 6
 
 Your Output: 
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+1
+5
+2
+4
+8
+9
+3
+7
+6
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -199,23 +187,18 @@ Expected Output:
 469
 
 Your Output: 
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+8
+7
+3
+5
+1
+2
+9
+6
+4
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 1
 7
@@ -228,15 +211,18 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+1
+7
+4
+3
+5
+2
+9
+6
+8
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 6
 1
@@ -249,12 +235,15 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+6
+1
+5
+9
+8
+3
+2
+7
+4
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -270,18 +259,15 @@ Expected Output:
 8
 
 Your Output: 
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+152
+152
+152
+397
+397
+397
+468
+468
+468
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -297,18 +283,15 @@ Expected Output:
 469
 
 Your Output: 
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+285
+285
+285
+371
+371
+371
+964
+964
+964
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -333,24 +316,24 @@ Expected Output:
 469
 
 Your Output: 
-
-
-
-
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+125
+125
+125
+397
+397
+397
+486
+486
+486
+528
+528
+528
+137
+137
+137
+496
+496
+496
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -389,36 +372,38 @@ Expected Output:
 23689
 
 Your Output: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+359468172
+13
+57
+16
+46
+57
+32
+98
+359468172
+43
+43
+72
+72
+15
+15
+17
+17
+59
+59
+68
+68
+36
+36
+359468172
+13
+57
+16
+46
+57
+32
+98
+39268
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -426,20 +411,15 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+54896372
+54896137
+54896172
+58961372
+48961372
+54891372
+54896132
+54961372
+54861372
 ----------------------------------------
 
 ########## Testcase 17: Passed ##########
@@ -455,14 +435,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+7
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -533,59 +506,70 @@ Expected Output:
 235689
 
 Your Output: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+632179
+632179
+632179
+632179
+632179
+632179
+62147859
+62147859
+62147859
+62147859
+62147859
+62147859
+62147859
+62147859
+63214859
+63214859
+63214859
+63214859
+63214859
+63214859
+63214859
+63214859
+3147859
+3147859
+3147859
+3147859
+3147859
+3147859
+3147859
+6321759
+6321759
+6321759
+6321759
+6321759
+6321759
+6321759
+63247859
+63247859
+63247859
+63247859
+63247859
+63247859
+63247859
+63247859
+214859
+214859
+214859
+214859
+214859
+214859
+6314789
+6314789
+6314789
+6314789
+6314789
+6314789
+6314789
+6327859
+6327859
+6327859
+6327859
+6327859
+6327859
+6327859
 ----------------------------------------
 
 ########## Testcase 20: Passed ##########
@@ -651,44 +635,57 @@ Expected Output:
 1346
 
 Your Output: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+481926
+481926
+481926
+481926
+481926
+481926
+74832
+74832
+74832
+74832
+74832
+743125
+743125
+743125
+743125
+743125
+743125
+741925
+741925
+741925
+741925
+741925
+741925
+79265
+79265
+79265
+79265
+79265
+483195
+483195
+483195
+483195
+483195
+483195
+743195
+743195
+743195
+743195
+743195
+743195
+78326
+78326
+78326
+78326
+78326
+431265
+431265
+431265
+431265
+431265
+431265
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -753,56 +750,64 @@ Expected Output:
 4567
 
 Your Output: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+2347196
+2347196
+2347196
+2347196
+2347196
+2347196
+2347196
+2654798
+2654798
+2654798
+2654798
+2654798
+2654798
+2654798
+236718
+236718
+236718
+236718
+236718
+236718
+354716
+354716
+354716
+354716
+354716
+354716
+234796
+234796
+234796
+234796
+234796
+234796
+2354198
+2354198
+2354198
+2354198
+2354198
+2354198
+2354198
+235496
+235496
+235496
+235496
+235496
+235496
+2354716
+2354716
+2354716
+2354716
+2354716
+2354716
+2354716
+654798
+654798
+654798
+654798
+654798
+654798
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -833,13 +838,30 @@ Expected Output:
 6
 
 Your Output: 
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+12
+12
+856
+856
+856
+67
+67
+54
+54
+9564
+9564
+9564
+9564
+817
+817
+817
+347
+347
+347
+964
+964
+964
+62
+62
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -883,19 +905,42 @@ Expected Output:
 19
 
 Your Output: 
-
-
-
-
-
-
-
-
-Traceback (most recent call last):
-  File "sudoku.py", line 59, in <module>
-    main()
-  File "sudoku.py", line 34, in main
-    if input_1[i] == input_1[i+1]:
-IndexError: string index out of range
+24316
+24316
+24316
+24316
+24316
+5984
+5984
+5984
+5984
+6318
+6318
+6318
+6318
+6384
+6384
+6384
+6384
+532
+532
+532
+3284
+3284
+3284
+3284
+7314
+7314
+7314
+7314
+27391
+27391
+27391
+27391
+27391
+9218
+9218
+9218
+9218
 ----------------------------------------
 
