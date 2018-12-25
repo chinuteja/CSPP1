@@ -1,12 +1,17 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-Given sudoku is solved
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 7
 7
@@ -19,18 +24,15 @@ Expected Output:
 7
 
 Your Output: 
-7
-7
-7
-7
-7
-7
-7
-7
-7
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 1
 2
@@ -43,15 +45,12 @@ Expected Output:
 9
 
 Your Output: 
-1
-2
-3
-4
-5
-6
-7
-8
-9
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -61,21 +60,29 @@ Expected Output:
 2
 
 Your Output: 
-265
-265
-265
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-4
-6
-9
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -91,18 +98,23 @@ Expected Output:
 15
 
 Your Output: 
-3
-7
-4
-6
-8
-2
-9
-1
-5
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 2
 1
@@ -115,15 +127,12 @@ Expected Output:
 3
 
 Your Output: 
-2
-1
-8
-5
-7
-4
-9
-6
-3
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -139,18 +148,21 @@ Expected Output:
 9
 
 Your Output: 
-726
-726
-726
-153
-153
-153
-984
-984
-984
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 8: Passed ##########
+########## Testcase 8: Failed ##########
 Expected Output: 
 1
 5
@@ -163,15 +175,20 @@ Expected Output:
 6
 
 Your Output: 
-1
-5
-2
-4
-8
-9
-3
-7
-6
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -187,18 +204,23 @@ Expected Output:
 469
 
 Your Output: 
-8
-7
-3
-5
-1
-2
-9
-6
-4
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 10: Passed ##########
+########## Testcase 10: Failed ##########
 Expected Output: 
 1
 7
@@ -211,18 +233,15 @@ Expected Output:
 8
 
 Your Output: 
-1
-7
-4
-3
-5
-2
-9
-6
-8
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 11: Passed ##########
+########## Testcase 11: Failed ##########
 Expected Output: 
 6
 1
@@ -235,15 +254,12 @@ Expected Output:
 4
 
 Your Output: 
-6
-1
-5
-9
-8
-3
-2
-7
-4
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -259,15 +275,18 @@ Expected Output:
 8
 
 Your Output: 
-512
-512
-512
-793
-793
-793
-468
-468
-468
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -283,15 +302,18 @@ Expected Output:
 469
 
 Your Output: 
-258
-258
-258
-731
-731
-731
-964
-964
-964
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -316,24 +338,24 @@ Expected Output:
 469
 
 Your Output: 
-512
-512
-512
-397
-397
-397
-684
-684
-684
-852
-852
-852
-317
-317
-317
-649
-649
-649
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -372,38 +394,36 @@ Expected Output:
 23689
 
 Your Output: 
-743196582
-13
-57
-16
-46
-57
-23
-89
-743196582
-43
-43
-27
-27
-51
-51
-17
-17
-59
-59
-86
-86
-63
-63
-743196582
-13
-57
-16
-46
-57
-23
-89
-39682
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -411,23 +431,35 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-32564798
-35614798
-25614798
-32561798
-32614798
-32514798
-32561498
-32561479
-32561478
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 17: Passed ##########
+########## Testcase 17: Failed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Invalid input
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -435,7 +467,14 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-7
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -506,78 +545,78 @@ Expected Output:
 235689
 
 Your Output: 
-917362
-917362
-917362
-917362
-917362
-917362
-49815762
-49815762
-49815762
-49815762
-49815762
-49815762
-49815762
-49815762
-49815362
-49815362
-49815362
-49815362
-49815362
-49815362
-49815362
-49815362
-4981573
-4981573
-4981573
-4981573
-4981573
-4981573
-4981573
-9157362
-9157362
-9157362
-9157362
-9157362
-9157362
-9157362
-49857362
-49857362
-49857362
-49857362
-49857362
-49857362
-49857362
-49857362
-498152
-498152
-498152
-498152
-498152
-498152
-4981736
-4981736
-4981736
-4981736
-4981736
-4981736
-4981736
-9857362
-9857362
-9857362
-9857362
-9857362
-9857362
-9857362
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
-########## Testcase 20: Passed ##########
+########## Testcase 20: Failed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Invalid input
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -635,57 +674,44 @@ Expected Output:
 1346
 
 Your Output: 
-182946
-182946
-182946
-182946
-182946
-182946
-82473
-82473
-82473
-82473
-82473
-124735
-124735
-124735
-124735
-124735
-124735
-129475
-129475
-129475
-129475
-129475
-129475
-29756
-29756
-29756
-29756
-29756
-184935
-184935
-184935
-184935
-184935
-184935
-149735
-149735
-149735
-149735
-149735
-149735
-82736
-82736
-82736
-82736
-82736
-124356
-124356
-124356
-124356
-124356
-124356
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -750,64 +776,56 @@ Expected Output:
 4567
 
 Your Output: 
-9321476
-9321476
-9321476
-9321476
-9321476
-9321476
-9321476
-8952476
-8952476
-8952476
-8952476
-8952476
-8952476
-8952476
-832176
-832176
-832176
-832176
-832176
-832176
-351476
-351476
-351476
-351476
-351476
-351476
-932476
-932476
-932476
-932476
-932476
-932476
-8935214
-8935214
-8935214
-8935214
-8935214
-8935214
-8935214
-935246
-935246
-935246
-935246
-935246
-935246
-3521476
-3521476
-3521476
-3521476
-3521476
-3521476
-3521476
-895746
-895746
-895746
-895746
-895746
-895746
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -838,30 +856,13 @@ Expected Output:
 6
 
 Your Output: 
-21
-21
-865
-865
-865
-67
-67
-54
-54
-6459
-6459
-6459
-6459
-871
-871
-871
-374
-374
-374
-649
-649
-649
-62
-62
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -905,42 +906,19 @@ Expected Output:
 19
 
 Your Output: 
-64132
-64132
-64132
-64132
-64132
-4895
-4895
-4895
-4895
-8631
-8631
-8631
-8631
-4863
-4863
-4863
-4863
-532
-532
-532
-4832
-4832
-4832
-4832
-4731
-4731
-4731
-4731
-79132
-79132
-79132
-79132
-79132
-8912
-8912
-8912
-8912
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
+Traceback (most recent call last):
+  File "sudoku.py", line 55, in <module>
+    main()
+  File "sudoku.py", line 28, in main
+    if input_1[i] == input_1[i+1]:
+IndexError: string index out of range
 ----------------------------------------
 
