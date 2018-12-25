@@ -24,9 +24,9 @@ def getSubgrid(grid,row, col):
 def main():
     input_1 = input()
     # print("length of input" , len(input_1))
-    for i in range(len(input_1)):
-            if input_1[i] == input_1[i+1]:
-                print("Invalid Sudoku:Duplicate values")
+    # for i in range(len(input_1)):
+    #         if input_1[i] == input_1[i+1]:
+    #             print("Invalid Sudoku:Duplicate values")
     if "." not in input_1:
         print("Given sudoku is solved")
     elif (len(input_1) != 81):
