@@ -1,56 +1,71 @@
 ************* Module sudoku
-sudoku.py:10:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-sudoku.py:12:17: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:13:22: C0326: No space allowed before comma
-def getgrid(suduko, i , j):
-                      ^ (bad-whitespace)
-sudoku.py:17:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-sudoku.py:29:28: C0326: Exactly one space required after comma
-            for j in range(0,9):
-                            ^ (bad-whitespace)
-sudoku.py:34:0: W0311: Bad indentation. Found 11 spaces, expected 12 (bad-indentation)
-sudoku.py:35:0: W0311: Bad indentation. Found 15 spaces, expected 16 (bad-indentation)
-sudoku.py:35:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-sudoku.py:36:0: C0301: Line too long (143/100) (line-too-long)
-sudoku.py:36:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:36:33: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:1:18: C0326: Exactly one space required after comma
+def getRowset(grid,row):
+                  ^ (bad-whitespace)
+sudoku.py:10:18: C0326: Exactly one space required after comma
+def getColset(grid,col):
+                  ^ (bad-whitespace)
+sudoku.py:17:19: C0326: Exactly one space required after comma
+def getSubgrid(grid,row, col):
+                   ^ (bad-whitespace)
+sudoku.py:19:32: C0326: Exactly one space required after comma
+    for i in range(row - (row%3),row-(2-(row%3))+1):
+                                ^ (bad-whitespace)
+sudoku.py:20:36: C0326: Exactly one space required after comma
+        for j in range(col - (col%3),col-(2-(col%3))+1):
+                                    ^ (bad-whitespace)
+sudoku.py:41:0: C0301: Line too long (142/100) (line-too-long)
+sudoku.py:41:33: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                  ^ (bad-whitespace)
-sudoku.py:36:37: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:37: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                      ^ (bad-whitespace)
-sudoku.py:36:41: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:41: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                          ^ (bad-whitespace)
-sudoku.py:36:45: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:45: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                              ^ (bad-whitespace)
-sudoku.py:36:49: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:49: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                                  ^ (bad-whitespace)
-sudoku.py:36:53: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:53: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                                      ^ (bad-whitespace)
-sudoku.py:36:57: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:57: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                                          ^ (bad-whitespace)
-sudoku.py:36:61: C0326: Exactly one space required after comma
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
+sudoku.py:41:61: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
                                                              ^ (bad-whitespace)
-sudoku.py:41:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:42:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:43:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-sudoku.py:45:32: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:45:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-sudoku.py:47:0: C0304: Final newline missing (missing-final-newline)
+sudoku.py:41:85: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                                                                                     ^ (bad-whitespace)
+sudoku.py:41:108: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                                                                                                            ^ (bad-whitespace)
+sudoku.py:41:132: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                                                                                                                                    ^ (bad-whitespace)
+sudoku.py:41:136: C0326: Exactly one space required after comma
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                                                                                                                                        ^ (bad-whitespace)
+sudoku.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
+sudoku.py:1:0: C0103: Function name "getRowset" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:7:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:13:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:20:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:27:12: W0612: Unused variable 'i' (unused-variable)
-sudoku.py:29:16: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:10:0: C0103: Function name "getColset" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:10:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:17:0: C0103: Function name "getSubgrid" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:22:16: E0602: Undefined variable 'getgrid' (undefined-variable)
+sudoku.py:24:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:44:20: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:45:20: R1713: Consider using str.join(sequence) for concatenating strings from an iterable (consider-using-join)
+sudoku.py:31:12: W0612: Unused variable 'i' (unused-variable)
+sudoku.py:33:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.44/10 (previous run: 2.44/10, +0.00)
+Your code has been rated at 1.22/10 (previous run: 2.44/10, -1.22)
 

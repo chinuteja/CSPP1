@@ -1,47 +1,49 @@
-def getrows(suduko, i):
+def getRowset(grid,row):
     rowset = set()
-    for k in range(0, 9):
-        if suduko[i][k] != '.':
-            rowset.add(suduko[i][k])
+    for i in range(9):
+        if grid[row][i] != ".":
+            # print("..........",grid[row][i])
+            rowset.add(grid[row][i])
+            # print("fuck ............",rowset)
+            # print(rowset)
     return rowset
-def getcols(suduko, j):
+def getColset(grid,col):
     colset = set()
-    for k in range(0, 9):
-        if(suduko[k][j] != '.'):
-            colset.add(suduko[k][j])
-    return colset            
-def getgrid(suduko, i , j):
-    gridset = set()
-    for row in range(i - (i%3), i + (2 - i%3) + 1):
-        for col in range(j - (j%3), j + (2 - j%3) + 1):
-            if(suduko[row][col] != '.'):
-                gridset.add(suduko[row][col])
-    return gridset
+    for j in range(9):
+        if grid[j][col] != ".":
+            colset.add(grid[j][col])
+            # print("dsafjfhkajfha",colset)
+    return colset
+def getSubgrid(grid,row, col):
+    subgrid = set()
+    for i in range(row - (row%3),row-(2-(row%3))+1):
+        for j in range(col - (col%3),col-(2-(col%3))+1):
+            if grid[i][j] != ".":
+                getgrid.add(grid[i][j])
+    return subgrid
 def main():
     input_1 = input()
-    if '.' not in input_1:
-        print("Given Sudoko is solved")
+    if "." not in input_1:
+        print("Given sudoku is solved")
     else:
-        suduko = []
+        grid = []
         k = 0
-        for i in range(0, 9):
+        for i in range(9):
             row = []
-            for j in range(0,9):
+            for j in range(9):
                 row.append(input_1[k])
                 k = k + 1
-            suduko.append(row)
-        for row in range(0, 9):
-           for col in range(0, 9):
-               if(suduko[row][col] == '.'):
-                result = set(['1','2','3','4','5','6','7','8','9']) - (getrows(suduko, row) | getcols(suduko, col) | getgrid(suduko, row, col))
-                # print("get rows....",getrows(suduko, row))
-                # print("get cols........",getcols(suduko, col))
-                # print("get subgrid..........",getgrid(suduko,row,col))
-                # print("result........",result)
-                resultstr = ""
-                for ele in result:
-                    resultstr = resultstr + ele
-                    # print("ele.....",ele)
-                print(resultstr)           
-if __name__ == '__main__':
+            grid.append(row)
+        # print(grid)
+    for row in range(9):
+        for col in range(9):
+            if grid[row][col] == ".":
+                result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+                result_1 = ""
+                # print(result)
+                for x in result:
+                    result_1 += x
+                print(result_1)
+                
+if __name__ == "__main__":
     main()
