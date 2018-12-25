@@ -19,7 +19,7 @@ def getSubgrid(grid,row, col):
     for i in range(row - (row%3),row-(2-(row%3))+1):
         for j in range(col - (col%3),col-(2-(col%3))+1):
             if grid[i][j] != ".":
-                getgrid.add(grid[i][j])
+                subgrid.add(grid[i][j])
     return subgrid
 def main():
     input_1 = input()
