@@ -16,7 +16,6 @@ sudoku.py:20:36: C0326: Exactly one space required after comma
                                     ^ (bad-whitespace)
 sudoku.py:27:5: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:30:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
-sudoku.py:32:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
 sudoku.py:54:0: C0301: Line too long (146/100) (line-too-long)
 sudoku.py:54:37: C0326: Exactly one space required after comma
                     result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
@@ -63,12 +62,11 @@ sudoku.py:10:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:17:0: C0103: Function name "getSubgrid" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:24:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:34:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku.py:38:11: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:57:24: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:58:24: R1713: Consider using str.join(sequence) for concatenating strings from an iterable (consider-using-join)
-sudoku.py:24:0: R0912: Too many branches (14/12) (too-many-branches)
+sudoku.py:44:12: W0612: Unused variable 'i' (unused-variable)
+sudoku.py:46:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.14/10 (previous run: 3.33/10, -0.20)
+Your code has been rated at 2.33/10 (previous run: 3.14/10, -0.81)
 
