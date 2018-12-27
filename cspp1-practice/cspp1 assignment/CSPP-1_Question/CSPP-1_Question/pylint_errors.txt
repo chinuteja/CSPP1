@@ -1,87 +1,113 @@
-************* Module sudoku
-sudoku.py:1:18: C0326: Exactly one space required after comma
-def getRowset(grid,row):
-                  ^ (bad-whitespace)
-sudoku.py:15:0: W0311: Bad indentation. Found 15 spaces, expected 16 (bad-indentation)
-sudoku.py:15:31: C0326: No space allowed before bracket
-               raise Exception ("Invalid Sudoku:Duplicate values")
-                               ^ (bad-whitespace)
-sudoku.py:24:18: C0326: Exactly one space required after comma
-def getColset(grid,col):
-                  ^ (bad-whitespace)
-sudoku.py:31:19: C0326: Exactly one space required after comma
-def getSubgrid(grid,row, col):
-                   ^ (bad-whitespace)
-sudoku.py:33:32: C0326: Exactly one space required after comma
-    for i in range(row - (row%3),row-(2-(row%3))+1):
-                                ^ (bad-whitespace)
-sudoku.py:34:36: C0326: Exactly one space required after comma
-        for j in range(col - (col%3),col-(2-(col%3))+1):
-                                    ^ (bad-whitespace)
-sudoku.py:41:5: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:44:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
-sudoku.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:72:0: C0301: Line too long (150/100) (line-too-long)
-sudoku.py:72:41: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                         ^ (bad-whitespace)
-sudoku.py:72:45: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                             ^ (bad-whitespace)
-sudoku.py:72:49: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
+************* Module example
+example.py:2:31: C0303: Trailing whitespace (trailing-whitespace)
+example.py:9:9: C0326: Exactly one space required before assignment
+digits   = '123456789'
+         ^ (bad-whitespace)
+example.py:10:9: C0326: Exactly one space required before assignment
+rows     = 'ABCDEFGHI'
+         ^ (bad-whitespace)
+example.py:11:9: C0326: Exactly one space required before assignment
+cols     = digits
+         ^ (bad-whitespace)
+example.py:12:9: C0326: Exactly one space required before assignment
+squares  = cross(rows, cols)
+         ^ (bad-whitespace)
+example.py:15:43: C0326: Exactly one space required after comma
+            [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')])
+                                           ^ (bad-whitespace)
+example.py:15:49: C0326: Exactly one space required after comma
+            [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')])
                                                  ^ (bad-whitespace)
-sudoku.py:72:53: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                     ^ (bad-whitespace)
-sudoku.py:72:57: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                         ^ (bad-whitespace)
-sudoku.py:72:61: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                             ^ (bad-whitespace)
-sudoku.py:72:65: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                                 ^ (bad-whitespace)
-sudoku.py:72:69: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                                     ^ (bad-whitespace)
-sudoku.py:72:93: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                                                             ^ (bad-whitespace)
-sudoku.py:72:116: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                                                                                    ^ (bad-whitespace)
-sudoku.py:72:140: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                                                                                                            ^ (bad-whitespace)
-sudoku.py:72:144: C0326: Exactly one space required after comma
-                        result = set(['1','2','3','4','5','6',"7",'8','9']) - (getRowset(grid,row) or getColset(grid,col) or getSubgrid(grid,row,col))
-                                                                                                                                                ^ (bad-whitespace)
-sudoku.py:80:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:81:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
-sudoku.py:1:0: C0103: Function name "getRowset" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:10:0: C0103: Function name "rowCheck" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:10:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:11:4: W0612: Unused variable 'flag' (unused-variable)
-sudoku.py:17:0: C0103: Function name "colCheck" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:18:4: W0612: Unused variable 'flag1' (unused-variable)
-sudoku.py:24:0: C0103: Function name "getColset" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:24:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:31:0: C0103: Function name "getSubgrid" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:31:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:38:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:78:15: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:75:28: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:76:28: R1713: Consider using str.join(sequence) for concatenating strings from an iterable (consider-using-join)
-sudoku.py:78:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:44:9: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
-sudoku.py:59:12: W0612: Unused variable 'i' (unused-variable)
-sudoku.py:61:16: W0612: Unused variable 'j' (unused-variable)
+example.py:15:73: C0326: Exactly one space required after comma
+            [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')])
+                                                                         ^ (bad-whitespace)
+example.py:15:79: C0326: Exactly one space required after comma
+            [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')])
+                                                                               ^ (bad-whitespace)
+example.py:16:49: C0303: Trailing whitespace (trailing-whitespace)
+example.py:18:33: C0326: Exactly one space required after comma
+peers = dict((s, set(sum(units[s],[]))-set([s]))
+                                 ^ (bad-whitespace)
+example.py:26:9: C0326: Exactly one space required after comma
+    for s,d in grid_values(grid).items():
+         ^ (bad-whitespace)
+example.py:50:35: C0326: Exactly one space required after comma
+    values[s] = values[s].replace(d,'')
+                                   ^ (bad-whitespace)
+example.py:53:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:62:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:65:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+example.py:66:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+example.py:74:14: C0326: No space allowed before bracket
+        print (''.join(values[r+c].center(width)+('|' if c in '36' else '')
+              ^ (bad-whitespace)
+example.py:75:0: C0330: Wrong continued indentation (add 6 spaces).
+                 for c in cols))
+                 ^     | (bad-continuation)
+example.py:76:28: C0326: No space allowed before bracket
+        if r in 'CF': print (line)
+                            ^ (bad-whitespace)
+example.py:80:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+example.py:83:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
+example.py:88:24: C0326: Exactly one space required after comma
+        for i in range(0,len(sudoku),9):
+                        ^ (bad-whitespace)
+example.py:88:36: C0326: Exactly one space required after comma
+        for i in range(0,len(sudoku),9):
+                                    ^ (bad-whitespace)
+example.py:104:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+example.py:105:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+example.py:106:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+example.py:107:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:107:12: C0326: No space allowed before bracket
+      print (Check_result)
+            ^ (bad-whitespace)
+example.py:108:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:109:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:110:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:111:0: W0311: Bad indentation. Found 6 spaces, expected 8 (bad-indentation)
+example.py:112:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+example.py:113:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+example.py:114:0: W0311: Bad indentation. Found 10 spaces, expected 16 (bad-indentation)
+example.py:114:16: C0326: No space allowed before bracket
+          print (sud_res[keys])
+                ^ (bad-whitespace)
+example.py:115:0: C0303: Trailing whitespace (trailing-whitespace)
+example.py:120:0: C0303: Trailing whitespace (trailing-whitespace)
+example.py:123:0: C0305: Trailing newlines (trailing-newlines)
+example.py:1:0: C0111: Missing module docstring (missing-docstring)
+example.py:5:0: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+example.py:5:0: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
+example.py:9:0: C0103: Constant name "digits" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:10:0: C0103: Constant name "rows" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:11:0: C0103: Constant name "cols" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:12:0: C0103: Constant name "squares" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:13:0: C0103: Constant name "unitlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:16:0: C0103: Constant name "units" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:18:0: C0103: Constant name "peers" doesn't conform to UPPER_CASE naming style (invalid-name)
+example.py:26:8: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+example.py:26:10: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+example.py:37:0: C0103: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+example.py:37:0: C0103: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+example.py:41:4: R1705: Unnecessary "else" after "return" (no-else-return)
+example.py:45:0: C0103: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+example.py:45:0: C0103: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+example.py:52:4: R1705: Unnecessary "elif" after "return" (no-else-return)
+example.py:52:7: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+example.py:55:8: C0103: Variable name "d2" doesn't conform to snake_case naming style (invalid-name)
+example.py:59:8: C0103: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+example.py:61:4: R1705: Unnecessary "elif" after "return" (no-else-return)
+example.py:61:7: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+example.py:73:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+example.py:76:22: C0321: More than one statement on a single line (multiple-statements)
+example.py:79:0: C0111: Missing function docstring (missing-docstring)
+example.py:80:4: R1705: Unnecessary "elif" after "return" (no-else-return)
+example.py:91:12: R1705: Unnecessary "elif" after "return" (no-else-return)
+example.py:103:0: C0111: Missing function docstring (missing-docstring)
+example.py:105:2: C0103: Variable name "Check_result" doesn't conform to snake_case naming style (invalid-name)
+example.py:109:6: W0101: Unreachable code (unreachable)
+example.py:110:14: E0601: Using variable 'count' before assignment (used-before-assignment)
 
-------------------------------------------------------------------
-Your code has been rated at 2.33/10 (previous run: 2.33/10, +0.01)
+-----------------------------------
+Your code has been rated at 0.38/10
 
