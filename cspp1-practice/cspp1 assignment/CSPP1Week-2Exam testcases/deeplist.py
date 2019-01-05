@@ -20,8 +20,19 @@ def main():
   
 # output listoutput = [] 
     # print ('The original list: ', l) 
-    deepList(l) 
-    print (sum(output)) 
+    deepList(l)
+    # print(output) 
+    # print (sum(output))
+    # alpha = "abcdefghijklmnopqrstuvwxyz"
+    # beta = "dfgdfg"
+    # gamma = "jkkk
+    sum1 = 0 
+    for i in output:
+        if type(i) == str:
+            continue
+        else:
+            sum1 = sum1 + i
+    print(sum1)
     print(count)
 if __name__ == '__main__':
     main()

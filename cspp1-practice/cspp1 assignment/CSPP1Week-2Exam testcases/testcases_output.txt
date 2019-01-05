@@ -8,18 +8,14 @@ Your Output:
 6
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 5.5
 1
 
 Your Output: 
-Traceback (most recent call last):
-  File "deeplist.py", line 27, in <module>
-    main()
-  File "deeplist.py", line 24, in main
-    print (sum(output)) 
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+5.5
+1
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -52,17 +48,13 @@ Your Output:
 8
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 5654134.9
 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "deeplist.py", line 27, in <module>
-    main()
-  File "deeplist.py", line 24, in main
-    print (sum(output)) 
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+5654134.9
+10
 ----------------------------------------
 
