@@ -1,0 +1,68 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+76.8
+6
+
+Your Output: 
+76.8
+6
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+5.5
+1
+
+Your Output: 
+Traceback (most recent call last):
+  File "deeplist.py", line 27, in <module>
+    main()
+  File "deeplist.py", line 24, in main
+    print (sum(output)) 
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
+########## Testcase 2: Passed ##########
+Expected Output: 
+1
+6
+
+Your Output: 
+1
+6
+----------------------------------------
+
+########## Testcase 3: Passed ##########
+Expected Output: 
+5
+4
+
+Your Output: 
+5
+4
+----------------------------------------
+
+########## Testcase 4: Passed ##########
+Expected Output: 
+0
+8
+
+Your Output: 
+0
+8
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+5654134.9
+10
+
+Your Output: 
+Traceback (most recent call last):
+  File "deeplist.py", line 27, in <module>
+    main()
+  File "deeplist.py", line 24, in main
+    print (sum(output)) 
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+

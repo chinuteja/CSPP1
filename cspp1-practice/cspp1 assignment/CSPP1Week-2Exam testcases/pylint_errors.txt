@@ -1,0 +1,39 @@
+************* Module deeplist
+deeplist.py:2:0: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:3:35: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:4:18: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:6:9: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:10:15: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:11:27: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:13:23: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:14:13: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:15:28: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:17:13: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:21:24: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:22:38: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:23:15: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:24:23: C0303: Trailing whitespace (trailing-whitespace)
+deeplist.py:24:10: C0326: No space allowed before bracket
+    print (sum(output)) 
+          ^ (bad-whitespace)
+deeplist.py:27:0: C0304: Final newline missing (missing-final-newline)
+deeplist.py:1:0: C0111: Missing module docstring (missing-docstring)
+deeplist.py:5:0: C0103: Constant name "output" doesn't conform to UPPER_CASE naming style (invalid-name)
+deeplist.py:6:0: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+deeplist.py:7:0: C0103: Function name "deepList" doesn't conform to snake_case naming style (invalid-name)
+deeplist.py:7:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+deeplist.py:7:0: C0111: Missing function docstring (missing-docstring)
+deeplist.py:8:4: C0103: Constant name "output" doesn't conform to UPPER_CASE naming style (invalid-name)
+deeplist.py:8:4: W0603: Using the global statement (global-statement)
+deeplist.py:9:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+deeplist.py:9:4: W0603: Using the global statement (global-statement)
+deeplist.py:11:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+deeplist.py:18:0: C0111: Missing function docstring (missing-docstring)
+deeplist.py:19:4: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+deeplist.py:19:8: W0123: Use of eval (eval-used)
+
+------------------------------------
+Your code has been rated at -8.82/10
+
