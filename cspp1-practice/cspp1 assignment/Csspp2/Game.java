@@ -11,13 +11,14 @@ public class Game {
 	}
 	
 	public void addPlayer(Player playerobj) {
-		for (int i = 0; i < players.length; i++) {
-			if (players[i] == null) {
-				players[i] = playerobj;
-				size++;
-				break;
-			}
-		}
+		players[size++] = playerobj;
+		// for (int i = 0; i < players.length; i++) {
+		// 	if (players[i] == null) {
+		// 		players[i] = playerobj;
+		// 		size++;
+		// 		break;
+		// 	}
+		// }
 	}
 	public Player getplayerobject(int index) {
 		return players[index];
