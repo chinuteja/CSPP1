@@ -3,19 +3,15 @@ Expected Output:
 Alice
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at Game.winner(Game.java:55)
-	at Solution.main(Solution.java:30)
+Bob
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Mark
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Game.winner(Game.java:55)
-	at Solution.main(Solution.java:30)
+Mark
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -23,8 +19,6 @@ Expected Output:
 Bob
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
-	at Game.winner(Game.java:55)
-	at Solution.main(Solution.java:30)
+Mark
 ----------------------------------------
 
