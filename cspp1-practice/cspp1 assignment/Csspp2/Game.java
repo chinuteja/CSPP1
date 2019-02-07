@@ -8,10 +8,10 @@ public class Game {
 		players = new Player[count];
 		size = 0;
 	}
-	
+
 	public void addPlayer(Player playerobj) {
 		players[size++] = playerobj;
-		
+
 	}
 	public Player getplayerobject(int index) {
 		return players[index];
@@ -35,15 +35,24 @@ public class Game {
 	// }
 	public String winner() {
 		String str = "";
-		for (int i = 0; i < players.length; i++) {
-			if (players[i].getScore() >= 100) {
-				// System.out.println("hello");
-				// System.out.println(players[i].getScore());
-				str += players[i].getName();
-				return str;
+		// for (int i = 0; i < players.length; i++) {
+		// 	if (players[i].getScore() >= 100) {
+		// 		// System.out.println("hello");
+		// 		// System.out.println(players[i].getScore());
+		// 		str += players[i].getName();
+		// 		return str;
+		// 	}
+
+		// }
+		int max = players[0].getScore();
+		int i;
+		for ( i = 0; i < players.length; i++) {
+
+			if (max < players[i].getScore()) {
+				max = players[i].getScore();
 			}
-			
 		}
+		str += players[i].getName();
 		return str;
 	}
 }
