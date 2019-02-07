@@ -8,7 +8,7 @@ public class Solution {
 		game.addPlayer(new Player(scan.nextLine()));
 		int totalScore = 0;
 		while (scan.hasNext()) {
-			Player p = new Player();
+			// Player p = new Player();
 			String lines[] = scan.nextLine().split(" got ");
 			if (lines.length == 1) {
 				if (game.indexOf(lines[0]) == -1) {
