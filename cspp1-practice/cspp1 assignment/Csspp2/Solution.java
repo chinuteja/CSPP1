@@ -18,19 +18,16 @@ public class Solution {
 				int index = game.indexOf(player);
 				int score = Integer.parseInt(lines[1]);
 				//Please complete the code to complete the game
-
-					if (score != 1) {
-						totalScore += score;
-					} else {
-						totalScore = 0;
-					}
+				if (score == 1) {
+					totalScore = 0;
+				} else {
+					totalScore += score;
+				}
 				game.getplayerobject(index).setScore(totalScore);
-				
-			// }
+			}
+
 		}
-		
+		System.out.println(game.winner());
+
 	}
-	System.out.println(game.winner());
-	
-}
 }

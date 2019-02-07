@@ -63,9 +63,6 @@ Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:4:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:11:37: Array brackets at illegal position. [ArrayTypeStyle]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:27: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:34: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:26: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 9 errors.
