@@ -4,7 +4,7 @@ Alice
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at Game.winner(Game.java:55)
+	at Game.winner(Game.java:51)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 
@@ -14,7 +14,7 @@ Mark
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Game.winner(Game.java:55)
+	at Game.winner(Game.java:51)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 
@@ -24,7 +24,7 @@ Bob
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
-	at Game.winner(Game.java:55)
+	at Game.winner(Game.java:51)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 

@@ -46,7 +46,7 @@ public class Game {
 		// }
 		int max = players[0].getScore();
 		int i;
-		for ( i = 0; i < size; i++) {
+		for ( i = 0; i <= size; i++) {
 
 			if (max < players[i].getScore()) {
 				max = players[i].getScore();
