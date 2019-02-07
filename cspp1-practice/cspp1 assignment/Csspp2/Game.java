@@ -3,7 +3,6 @@ public class Game {
 	int count;
 	Player[] players;
 	int size;
-	// Player person = new Player();
 	Game(int count) {
 		this.count = count;
 		players = new Player[count];
@@ -36,7 +35,7 @@ public class Game {
 	// }
 	public String winner() {
 		String str = "";
-		for (int i = 0; i < size; i++) {
+		for (int i = 0; i < players.length; i++) {
 			if (players[i].getScore() >= 100) {
 				// System.out.println("hello");
 				// System.out.println(players[i].getScore());

@@ -1,9 +1,6 @@
 public class Player {
 	String player_name;
 	int score;
-	// Player() {
-
-	// }
 	Player(String player_name) {
 		this.player_name = player_name;
 		this.score = score;
