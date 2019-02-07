@@ -45,14 +45,16 @@ public class Game {
 
 		// }
 		int max = players[0].getScore();
+		int j = 0;
 		int i;
-		for ( i = 0; i <= size; i++) {
+		for ( i = 0; i < size; i++) {
 
 			if (max < players[i].getScore()) {
 				max = players[i].getScore();
+				j = i;
 			}
 		}
-		str += players[i].getName();
+		str += players[j].getName();
 		return str;
 	}
 }
