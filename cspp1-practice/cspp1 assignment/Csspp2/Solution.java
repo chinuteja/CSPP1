@@ -25,7 +25,7 @@ public class Solution {
 					} else {
 						totalScore = 0;
 					}
-				game.getplayerobject(index).scoreCount(totalScore);
+				game.getplayerobject(index).setScore(totalScore);
 				
 			// }
 		}

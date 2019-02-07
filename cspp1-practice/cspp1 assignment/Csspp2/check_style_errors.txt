@@ -57,17 +57,13 @@ Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:17:9: Class 'Player' looks like designed for extension (can be subclassed), but the method 'setName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'setName' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:17:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:17:29: Parameter name should be final. [FinalParameters]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:20:9: Class 'Player' looks like designed for extension (can be subclassed), but the method 'setScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'setScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:20:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:20:30: Parameter score should be final. [FinalParameters]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:20:34: 'score' hides a field. [HiddenField]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:9: Class 'Player' looks like designed for extension (can be subclassed), but the method 'scoreCount' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'scoreCount' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:9: Class 'Player' looks like designed for extension (can be subclassed), but the method 'setScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'setScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:32: Parameter score should be final. [FinalParameters]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:36: 'score' hides a field. [HiddenField]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:30: Parameter score should be final. [FinalParameters]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:23:34: 'score' hides a field. [HiddenField]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Player.java:30: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 24 errors.
 Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
@@ -77,7 +73,7 @@ Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:4:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:12:37: Array brackets at illegal position. [ArrayTypeStyle]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:28: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:28: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:29: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\cspp1-practice\cspp1 assignment\Csspp2\Solution.java:35: Line has trailing spaces. [RegexpSingleline]

@@ -17,10 +17,10 @@ public class Player {
 	public void setName(String name) {
 		this.player_name = name;
 	}
+	// public void setScore(int score) {
+	// 	this.score = score;
+	// }
 	public void setScore(int score) {
-		this.score = score;
-	}
-	public void scoreCount(int score) {
 		// System.out.println("score "+score);
 		// System.out.println("name" +getName());
 		// System.out.println(getName());
