@@ -52,7 +52,7 @@ public class Game {
 				max = players[i].getScore();
 			}
 		}
-		str += players[i-1].getName();
+		str += players[i].getName();
 		return str;
 	}
 }
