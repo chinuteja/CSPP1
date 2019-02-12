@@ -33,16 +33,16 @@ public class Game {
 		}
 		return -1;
 	}
-	public void winner() {
+	public String winner() {
 		int temp;
 		int i;
+		String str = "";
 		// for (int i = 0; i < size; i++) {
 		// 	if (p[i].getScore() >= 100) {
 		// 		// System.out.println(p[i].getScore());
 		// 		System.out.println(p[i].getName());
 		// 		break;
-		// 		// return p[i].getName();
-		// 	}
+		// 		// return p[i].getName 		// 	}
 		// 	// if (p[i].getScore() > max) {
 		// 	// 	max = p[i].getScore();
 		// 	// 	System.out.println(p[i].getName());
@@ -63,16 +63,19 @@ public class Game {
 	    		
 	    	} 
 	    }
-	    System.out.println(p[j].getName());
+	    // System.out.println(p[j].getName());
+	    str += p[j].getName();
+	    return str;
 	    // if (flag) {
 	    // 	System.out.println("Mark");
 	    // }
-	    for (int  k = 0; k<size -1; k++) {
-	    	if (p[k].getScore() == p[k+1].getScore()) {
-	    		System.out.println("hello");
-	    		System.out.println(p[k].getName());
+	    
+	    // for (int  k = 0; k<size -1; k++) {
+	    // 	if (p[k].getScore() == p[k+1].getScore()) {
+	    // 		System.out.println("hello");
+	    // 		System.out.println(p[k].getName());
 	    		
-	    	}
-	    }
+	    // 	}
+	    // }
 	}
 }
