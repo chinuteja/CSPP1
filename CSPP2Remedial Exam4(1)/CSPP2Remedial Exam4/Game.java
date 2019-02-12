@@ -69,6 +69,7 @@ public class Game {
 	    // }
 	    for (int  k = 0; k<size -1; k++) {
 	    	if (p[k].getScore() == p[k+1].getScore()) {
+	    		System.out.println("hello");
 	    		System.out.println(p[k].getName());
 	    		
 	    	}
