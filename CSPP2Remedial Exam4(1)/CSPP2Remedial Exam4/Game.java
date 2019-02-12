@@ -52,7 +52,7 @@ public class Game {
 		// return null;
 		int j = 0;
 	    temp = p[0].getScore();
-	    boolean flag = false;
+	    // boolean flag = false;
 	    for ( i = 0; i<size ; i++) {
 	    	// System.out.println("name is "+p[i].getName());
 	    	// System.out.println("score "+temp);
@@ -64,8 +64,14 @@ public class Game {
 	    	} 
 	    }
 	    System.out.println(p[j].getName());
-	    if (flag) {
-	    	System.out.println("Mark");
+	    // if (flag) {
+	    // 	System.out.println("Mark");
+	    // }
+	    for (int  k = 0; k<size -1; k++) {
+	    	if (p[k].getScore() == p[k+1].getScore()) {
+	    		System.out.println(p[k].getName());
+	    		
+	    	}
 	    }
 	}
 }
