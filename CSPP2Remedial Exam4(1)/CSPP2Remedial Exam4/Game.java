@@ -50,12 +50,14 @@ public class Game {
 		// 	// }
 		// }
 		// return null;
+		int j = 0;
 	    temp = p[0].getScore();
 	    for ( i = 0; i<size ; i++) {
 	    	if (p[i].getScore() > temp) {
 	    		temp = p[i].getScore();
+	    		j = i;
 	    	}
 	    }
-	    System.out.println(p[i-1].getName());
+	    System.out.println(p[j].getName());
 	}
 }
