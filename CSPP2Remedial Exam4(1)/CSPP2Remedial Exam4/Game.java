@@ -52,15 +52,20 @@ public class Game {
 		// return null;
 		int j = 0;
 	    temp = p[0].getScore();
+	    boolean flag = false;
 	    for ( i = 0; i<size ; i++) {
-	    	System.out.println("name is "+p[i].getName());
-	    	System.out.println("score "+temp);
-	    	System.out.println("getScore"+p[i].getScore());
+	    	// System.out.println("name is "+p[i].getName());
+	    	// System.out.println("score "+temp);
+	    	// System.out.println("getScore"+p[i].getScore());
 	    	if (p[i].getScore() > temp) {
 	    		temp = p[i].getScore();
 	    		j = i;
-	    	}
+	    		flag = true;
+	    	} 
 	    }
 	    System.out.println(p[j].getName());
+	    if (flag) {
+	    	System.out.println("Mark");
+	    }
 	}
 }

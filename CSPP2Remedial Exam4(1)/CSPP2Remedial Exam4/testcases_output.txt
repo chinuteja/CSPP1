@@ -1,14 +1,8 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Alice
 
 Your Output: 
-name is Alice
-score 594
-getScore594
-name is Bob
-score 594
-getScore273
 Alice
 ----------------------------------------
 
@@ -17,15 +11,6 @@ Expected Output:
 Mark
 
 Your Output: 
-name is Alice
-score 358
-getScore358
-name is Bob
-score 358
-getScore219
-name is Mark
-score 358
-getScore252
 Alice
 ----------------------------------------
 
@@ -34,18 +19,7 @@ Expected Output:
 Bob
 
 Your Output: 
-name is Olive
-score 39
-getScore39
-name is Bob
-score 39
-getScore351
-name is Alice
-score 351
-getScore172
-name is Mark
-score 351
-getScore79
 Bob
+Mark
 ----------------------------------------
 
