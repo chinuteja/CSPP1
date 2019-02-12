@@ -57,14 +57,11 @@ public class Game {
 	    	// System.out.println("name is "+p[i].getName());
 	    	// System.out.println("score "+temp);
 	    	// System.out.println("getScore"+p[i].getScore());
-	    	if (p[i].getScore() > temp) {
+	    	if (p[i].getScore() > temp || p[i].getScore() == temp) {
 	    		temp = p[i].getScore();
 	    		j = i;
 	    		
 	    	} 
-	    	else if (p[i].getScore() == temp) {
-	    		flag = true;
-	    	}
 	    }
 	    System.out.println(p[j].getName());
 	    if (flag) {
