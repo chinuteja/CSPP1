@@ -56,6 +56,8 @@ public class Game {
 	    	if (p[i].getScore() > temp) {
 	    		temp = p[i].getScore();
 	    		j = i;
+	    		System.out.println("name " +p[i].getName());
+	    		System.out.println(temp);
 	    	}
 	    }
 	    System.out.println(p[j].getName());
