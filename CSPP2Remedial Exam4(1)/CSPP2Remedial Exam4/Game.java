@@ -60,8 +60,11 @@ public class Game {
 	    	if (p[i].getScore() > temp) {
 	    		temp = p[i].getScore();
 	    		j = i;
-	    		flag = true;
+	    		
 	    	} 
+	    	else if (p[i].getScore() == temp) {
+	    		flag = true;
+	    	}
 	    }
 	    System.out.println(p[j].getName());
 	    if (flag) {

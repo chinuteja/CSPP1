@@ -1,9 +1,10 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Alice
 
 Your Output: 
 Alice
+Mark
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -12,6 +13,7 @@ Mark
 
 Your Output: 
 Alice
+Mark
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
