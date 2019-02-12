@@ -56,6 +56,6 @@ public class Game {
 	    		temp = p[i].getScore();
 	    	}
 	    }
-	    System.out.println(p[i].getName());
+	    System.out.println(p[i-1].getName());
 	}
 }
