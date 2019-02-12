@@ -35,19 +35,27 @@ public class Game {
 	}
 	public void winner() {
 		int temp;
-		for (int i = 0; i < size; i++) {
-			if (p[i].getScore() >= 100) {
-				// System.out.println(p[i].getScore());
-				System.out.println(p[i].getName());
-				break;
-				// return p[i].getName();
-			}
-			// if (p[i].getScore() > max) {
-			// 	max = p[i].getScore();
-			// 	System.out.println(p[i].getName());
-			// 	break;
-			// }
-		}
+		int i;
+		// for (int i = 0; i < size; i++) {
+		// 	if (p[i].getScore() >= 100) {
+		// 		// System.out.println(p[i].getScore());
+		// 		System.out.println(p[i].getName());
+		// 		break;
+		// 		// return p[i].getName();
+		// 	}
+		// 	// if (p[i].getScore() > max) {
+		// 	// 	max = p[i].getScore();
+		// 	// 	System.out.println(p[i].getName());
+		// 	// 	break;
+		// 	// }
+		// }
 		// return null;
+	    temp = p[0].getScore();
+	    for ( i = 0; i<size ; i++) {
+	    	if (p[i].getScore() > temp) {
+	    		temp = p[i].getScore();
+	    	}
+	    }
+	    System.out.println(p[i].getName());
 	}
 }

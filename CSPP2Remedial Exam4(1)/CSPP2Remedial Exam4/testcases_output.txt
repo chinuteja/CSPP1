@@ -1,9 +1,11 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Alice
 
 Your Output: 
-Alice
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at Game.winner(Game.java:59)
+	at Solution.main(Solution.java:37)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -11,14 +13,18 @@ Expected Output:
 Mark
 
 Your Output: 
-Alice
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+	at Game.winner(Game.java:59)
+	at Solution.main(Solution.java:37)
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Bob
 
 Your Output: 
-Bob
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+	at Game.winner(Game.java:59)
+	at Solution.main(Solution.java:37)
 ----------------------------------------
 
