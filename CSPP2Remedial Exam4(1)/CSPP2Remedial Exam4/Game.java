@@ -65,6 +65,8 @@ public class Game {
 	    }
 	    // System.out.println(p[j].getName());
 	    str += p[j].getName();
+	    System.out.println("hello");
+	    System.out.println(str);
 	    return str;
 	    // if (flag) {
 	    // 	System.out.println("Mark");

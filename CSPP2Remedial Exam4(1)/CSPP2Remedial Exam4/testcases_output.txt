@@ -3,7 +3,8 @@ Expected Output:
 Alice
 
 Your Output: 
-
+hello
+Alice
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -11,7 +12,8 @@ Expected Output:
 Mark
 
 Your Output: 
-
+hello
+Alice
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -19,6 +21,7 @@ Expected Output:
 Bob
 
 Your Output: 
-
+hello
+Bob
 ----------------------------------------
 

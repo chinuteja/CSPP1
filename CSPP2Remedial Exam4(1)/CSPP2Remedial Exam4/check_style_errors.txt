@@ -31,8 +31,8 @@ Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:56:32: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:63: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:64: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:72: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:74: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:79: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
