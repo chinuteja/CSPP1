@@ -29,8 +29,14 @@ Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:55:27: '<' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:55:28: '<' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:55:32: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:56:46: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:56:47: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:57:44: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:57:45: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:58:46: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Game.java:58:47: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 30 errors.
+Checkstyle ends with 36 errors.
 Starting audit...
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Player.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\CHINU\Desktop\Cspp-1\CSPP1\CSPP2Remedial Exam4(1)\CSPP2Remedial Exam4\Player.java:1: Missing a Javadoc comment. [JavadocType]
